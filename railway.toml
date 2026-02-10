@@ -1,6 +1,0 @@
-[build]
-builder = "NIXPACKS"
-buildCommand = "chmod +x mvnw && ./mvnw clean package -DskipTests -B"
-
-[deploy]
-startCommand = "java -jar target/bfhl-api-0.0.1-SNAPSHOT.jar"
